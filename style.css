@@ -53,9 +53,6 @@ p {
   font-size: 1rem;
   padding: 3% 5%;
 }
-.accordion__label:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
 
 .btn {
   display: block;
@@ -78,12 +75,6 @@ p {
   border-radius: 5%;
   transition: 0.2s;
 }
-.main__img:hover {
-  transform: scale(1.2);
-  transition: 0.2s;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 
 .accordion__input {
   display: none;
@@ -95,21 +86,6 @@ p {
   padding: 0;
   transition: 0.3s ease-in;
   background-color: #ccebc0;
-}
-
-.accordion:hover {
-  color: white;
-  cursor: pointer;
-}
-.item:hover .accordion__content {
-  transition: 0.2s all;
-  height: 100%;
-  padding: 5%;
-}
-
-.item:hover .btn {
-  filter: invert(0.9);
-  transform: rotate(-90deg) translateX(-20%);
 }
 
 .accordion__input:checked ~ .accordion__content {
@@ -157,5 +133,28 @@ p {
   }
   p {
     font-size: 1.4em;
+  }
+  .accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .accordion:hover {
+    color: white;
+    cursor: pointer;
+  }
+  .item:hover .accordion__content {
+    transition: 0.2s all;
+    height: 100%;
+    padding: 5%;
+  }
+
+  .item:hover .btn {
+    filter: invert(0.9);
+    transform: rotate(-90deg) translateX(-20%);
+  }
+  .main__img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }

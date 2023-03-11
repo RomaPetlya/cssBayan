@@ -1,1 +1,0 @@
-https://romapetlya.github.io/cssBayan/cssBayan/index.html
