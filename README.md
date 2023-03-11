@@ -1,1 +1,1 @@
-https://romapetlya.github.io/cssBayan/cssBayan/index.html
+https://romapetlya.github.io/cssBayan/index.html
